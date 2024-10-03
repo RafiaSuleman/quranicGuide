@@ -6,7 +6,7 @@ import { MdOutlineAttachMoney } from "react-icons/md";
 import { IoIosPerson } from "react-icons/io";
 import { FaGraduationCap } from "react-icons/fa6";
 import { GrCertificate } from "react-icons/gr";
-
+import { MdOutlineDone } from "react-icons/md";
 export default function Home() {
   const cards = [
     {
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
               {courses.map((course, index) => {
                 return (
-                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg" key={index}>
                     <div className="flex-shrink-0">
                       <img
                         className="h-48 w-full object-cover"
@@ -193,212 +193,56 @@ export default function Home() {
             <div className="grid xl:grid-cols-3 grid-cols-1 gap-24">
               <div className="space-y-2">
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Personalized one-on-one tutoring
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Female tutors available
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Customized class schedules
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   40-minute daily classes
                 </li>
               </div>
 
               <div className="space-y-2">
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   5 days a week
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   2 FREE trial classes
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Flexible timing
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Interactive online platform
                 </li>
               </div>
               <div className="space-y-2">
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Certified instructors
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Regular progress reports
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Regular progress reports
                 </li>
                 <li className="my-1 flex items-center">
-                  <svg
-                    className="mr-2 flex-shrink-0 text-blue-500"
-                    width="20"
-                    height="20"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                <MdOutlineDone className="text-[#3B82F6] text-xl font-bold mr-2" />
                   Access to recorded lessons
                 </li>
               </div>
@@ -530,7 +374,7 @@ export default function Home() {
     </svg>
     <blockquote className="relative">
         <p className="text-lg tracking-tight text-slate-900">
-            Awesome idea. Can't wait to see how this turns out!
+            Awesome idea. Can not wait to see how this turns out!
         </p>
     </blockquote>
     <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
@@ -548,7 +392,7 @@ export default function Home() {
     </svg>
     <blockquote className="relative">
         <p className="text-lg tracking-tight text-slate-900">
-            Awesome idea. Can't wait to see how this turns out!
+            Awesome idea. Can not wait to see how this turns out!
         </p>
     </blockquote>
     <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
