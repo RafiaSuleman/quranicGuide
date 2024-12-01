@@ -142,7 +142,7 @@ export default function Home() {
 
         {/* Courses */}
 
-        <div className="relative x-6 pt-10 pb-10 lg:px-8 lg:pt-24 lg:pb-10">
+        <div id="exploreCourses" className="relative x-6 pt-10 pb-10 lg:px-8 lg:pt-24 lg:pb-10">
           <div className="relative mx-auto max-w-7xl">
             <div className="text-center">
               <h2 className="text-3xl font-bold  text-primary-foreground sm:text-4xl">

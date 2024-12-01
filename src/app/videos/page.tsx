@@ -39,24 +39,7 @@ const page = () => {
         Your browser does not support the video tag.
       </video>
     </div>
-    <div>  
-      <video autoPlay loop muted playsInline className="w-full h-64 object-cover rounded-lg shadow-lg">
-        <source src="/videos/video1.mp4" type="video/mp4"/>
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div>  
-      <video autoPlay loop muted playsInline className="w-full h-64 object-cover rounded-lg shadow-lg">
-        <source src="/videos/video2.mp4" type="video/mp4"/>
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div>  
-      <video autoPlay loop muted playsInline className="w-full h-64 object-cover rounded-lg shadow-lg">
-        <source src="/videos/video3.mp4" type="video/mp4"/>
-        Your browser does not support the video tag.
-      </video>
-    </div>
+   
   </div>
   
   

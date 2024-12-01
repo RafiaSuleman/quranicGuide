@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import Image from 'next/image'
+import Goy from './goy'
 
 const Herosection = () => {
   return (
@@ -24,7 +25,7 @@ const Herosection = () => {
           </p>
           <div className='mt-[20px] flex gap-3'>
             <div><Button className=''>Start Free Trial</Button></div>
-            <div><Button>Explore Courses</Button></div>
+            <div><Goy id="exploreCourses">Explore Courses</Goy></div>
           </div>
         </div>
         <div>

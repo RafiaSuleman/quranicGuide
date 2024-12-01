@@ -5,9 +5,6 @@ import Link from 'next/link'
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
 import {CiMenuFries} from 'react-icons/ci'
@@ -19,16 +16,24 @@ const Links = [
       path: "/",
     },
     {
-      name: "about",
+      name: "About",
       path: "/about",
     },
     {
-      name: "Articals",
-      path: "/artical",
+      name: "Videos",
+      path: "/videos",
+    },
+    {
+      name: "Courses",
+      path: "/courses",
+    },
+    {
+      name: "Pricing",
+      path: "/pricing",
     },
     {
       name: "Contact",
-      path: "/contact",
+      path: "/contactus",
     },
    
   ];

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import {Lora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
+import PhoneIcon from "@/components/phoneicon";
 
 const lora = Lora({
    subsets: ["latin"],
@@ -23,8 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={lora.variable}>
         <Header/>
+        <PhoneIcon/>
+        {children}
+        <Footer/>
        
-        {children}</body>
+        </body>
     </html>
   );
 }

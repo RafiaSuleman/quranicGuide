@@ -7,7 +7,7 @@ import Mobilenav from './mobilenav'
 
 const Header = () => {
   return (
-    <header className="py-3 xl:py-3 text-white z-50">
+    <header className="py-3 xl:py-3 text-white z-50 sticky top-0 bg-[#F7E7CE]">
     <div className=" container mx-auto flex justify-between items-center">
     <div className='flex justify-center items-center'>
     <Image src={'/logo2.png'} width={100} height={50} alt={'QuranicGuide'} />

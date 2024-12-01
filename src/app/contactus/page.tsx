@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
-import Image from "next/image";
+
 const info = [
   {
     icon: <FaPhoneAlt />,
@@ -28,7 +28,7 @@ const info = [
 const Contact = () => {
   return (
    
-      <div className="container mx-auto bg-[#F5F7FA] ">
+      <div className="container mx-auto bg-[#F5F7FA] mb-[10px]">
         <div className="flex flex-col xl:flex-row gap-[30px] py-6">
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form

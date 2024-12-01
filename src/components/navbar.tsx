@@ -2,6 +2,16 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
 
 const Navbar = () => {
     const Links = [
@@ -10,12 +20,20 @@ const Navbar = () => {
           path: "/",
         },
         {
-          name: "about",
+          name: "About",
           path: "/about",
         },
         {
           name: "Videos",
           path: "/videos",
+        },
+        {
+          name: "Courses",
+          path: "/courses",
+        },
+        {
+          name: "Pricing",
+          path: "/pricing",
         },
         {
           name: "Contact",
