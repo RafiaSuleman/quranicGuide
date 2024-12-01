@@ -50,7 +50,7 @@ const AboutPage = () => {
       <p className="font-medium">Ensuring every learner has the tools they need to succeed.</p>
 
       <div className="container mt-7 mb-7">
-        <h1 className="text-2xl font-bold mb-3">"Begin your journey today!"</h1>
+        <h1 className="text-2xl font-bold mb-3">Begin your journey today</h1>
         <p className="text-xl font-medium mb-7">
           Feel free to explore the resources, and if you have any questions or
           need personal guidance, don not hesitate to reach out.
