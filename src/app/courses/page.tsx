@@ -15,14 +15,11 @@ const Courses = () => {
             Correct pronunciation of short Surahs.</p>
 </div>
 <div>
-
-For the Courses section on the Qari App site, you can provide a clear breakdown of the various offerings to help users navigate their learning journey. Here’s a possible structure and content for the Courses page:
-
 Qari App Courses
 Explore Our Quranic Learning Pathways
 At Quranic Guide, we offer a variety of courses tailored to meet the needs of learners at every stage of their journey. Whether you are a beginner starting with basic recitation or someone looking to deepen your understanding, we have a course for you.
 
-1. Beginner Quran Recitation (Tajweed Basics)
+<h1>1. Beginner Quran Recitation (Tajweed Basics)</h1>
 Course Description:
 This course introduces the foundational rules of Tajweed, helping you recite the Quran with proper pronunciation. You wll learn how to articulate Arabic letters correctly, recognize common mistakes, and recite shorter Surahs with confidence.
 
@@ -32,7 +29,9 @@ What you wll learn:
 Arabic letters and sounds.
 Basic Tajweed rules.
 Correct pronunciation of short Surahs.
-2. Intermediate Quran Recitation (Advanced Tajweed)
+
+
+<h1>2. Intermediate Quran Recitation (Advanced Tajweed)</h1>
 Course Description:
 Building on your knowledge of Tajweed, this course dives deeper into advanced rules and techniques. You will learn to recite with fluency, improving your melody and tone for a more beautiful recitation.
 
@@ -44,7 +43,7 @@ Fluency in recitation.
 Improving rhythm and tone.
 </div>
 <div>
-4. Tafseer (Quran Interpretation)
+<h1>4. Tafseer (Quran Interpretation)</h1>
 Course Description:
 This course delves into the meaning behind the verses of the Quran. Youll study key Surahs in depth, exploring their historical context, lessons, and relevance to modern life.
 
